@@ -1,41 +1,42 @@
-header {
-    padding-top: 4px;
-    padding-right: 12px;
-    padding-bottom: 4px;
-    padding-left: 12px;
-    font-family: "Arial", Serif;
-    
-}
-
-aside {
-    padding: 20px;
-    position: static;
-}
-
 article p {
   color: black;
   background-color: gray;
 }
 
-h1 {
-  text-align: left;
-  font-size: 8em;
-}
 aside p {
   color: black;
   margin-left: 50px;
   line-height: 10px;
 }
 
-.red  {
+aside {
+  padding: 20px;
+}
+
+body {
+  margin: 8px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 8em;
+}
+
+header {
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    font-family: "Arial", Serif;
+  }
+
+li {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-family: cursive;
+}
+
+p.red  {
   color: #F22E4F;
 }
 
-ul {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-
-aside {
-  display: block;
-}
